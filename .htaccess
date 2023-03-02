@@ -1,0 +1,11 @@
+DirectoryIndex index.html index.php
+RewriteEngine on
+<IfModule mod_rewrite.c>
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.+[^/])/(.+[^/])$ index.php?op=$1&slug=$2 [NC,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.+[^/])$ index.php?op=$1 [NC,L]
+
+</IfModule>
