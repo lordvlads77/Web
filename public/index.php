@@ -9,6 +9,6 @@ use Router\Router;
     include('../app/libs/router.php');
     //Utilities::print("HELLO",true);
     $router = new Router("index",SUBDIR);
-    Utilities::print($router,true);
+    Utilities::print($router->getController(),true);
 
 ?>
