@@ -1,0 +1,35 @@
+:root {
+    --maingreen : #008555;
+    --mainbackground : #f2f1e6;
+    --pink: #ffa7a6;
+    --yellow: #f4eb9c;
+    --white: #ffffff;
+    --black: #000000;
+
+}
+h1 {
+    color: crimson;
+    font-size: 1em;
+}
+
+p {
+    font-size: .95em;
+    color: darkblue;
+}
+
+body {
+    background-color: var(--mainbackground);
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.offers{
+    display: inline-block;
+    text-align: center;
+    background-color: var(--maingreen);
+    color: var(--white);
+    font-size: 1rem;
+    width: 100%;
+}
+

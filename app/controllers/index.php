@@ -14,7 +14,6 @@ class Index extends System\Core
             "test" => "hola"
         ];
         $this->load->view("general/top");
-        $this->load->view("general/header");
         $this->load->view("index",$data,);
         $this->load->view("general/bottom");
     }

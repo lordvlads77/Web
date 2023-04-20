@@ -9,3 +9,14 @@
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
+    <?php
+    $sections = [
+        "acercade" => "Acerca de",
+        "catalogo" => "Catalogo",
+        "ofertas" => "Ofertas",
+        "contacto" => "Contacto"
+    ];
+
+    $this->view("general/header", ["sections" =>$sections]);
+
+    ?>
