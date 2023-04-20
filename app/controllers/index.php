@@ -18,6 +18,11 @@ class Index extends System\Core
         $this->load->view("index",$data,);
         $this->load->view("general/bottom");
     }
+
+    public function hola()
+    {
+        print('helo');
+    }
 }
 
 ?>
