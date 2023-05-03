@@ -5,6 +5,7 @@
     --yellow: #f4eb9c;
     --white: #ffffff;
     --black: #000000;
+    --orange: #ffbe93;
 
 }
 h1 {
@@ -32,4 +33,19 @@ body {
     font-size: 1rem;
     width: 100%;
 }
+
+/*form {
+    margin-right: 500px;
+}*/
+
+/*.navbar-custom {
+    background-color: var(--mainbackground);
+}*/
+
+.navbar-brand {
+    color: var(--orange);
+}
+
+
+
 
