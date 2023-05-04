@@ -41,7 +41,9 @@ body {
 /*.navbar-custom {
     background-color: var(--mainbackground);
 }*/
-
+.header .navbar {
+    background: #ffffff;
+}
 .navbar-brand {
     color: var(--orange);
 }
